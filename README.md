@@ -1,4 +1,4 @@
-# Face detection with Taipy and OpenCV
+# Face detection using Taipy and OpenCV
 This little demo shows how to do Face detection in a photo using Taipy and OpenCV.
 
 # How to run the demo 
