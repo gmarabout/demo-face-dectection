@@ -11,7 +11,7 @@ image = None
 def process_image(state):
     img = cv2.imread(state.selected_file, cv2.IMREAD_UNCHANGED)
     gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
-    faces = face_cascade.detectMultiScale(gray, 1.1, 3)
+    faces = face_cascade.detectMultiScale(gray)
     state.number_of_faces_detected = len(faces)
     # Draw a rectangle around faces
     for (x, y, w, h) in faces:
